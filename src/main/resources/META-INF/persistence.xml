@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.2" xmlns="http://java.sun.com/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_2.xsd">
+  <!-- Define Persistence Unit -->
+  <persistence-unit name="LudusPU" transaction-type="JTA">
+    <jta-data-source>jdbc/LudusDB</jta-data-source>
+    <class>com.gorka.dominio.Equipamiento</class>
+    <class>com.gorka.dominio.Usuario</class>
+    <class>com.gorka.dominio.Actividad</class>
+    <class>com.gorka.dominio.Reaccion</class>
+    <class>com.gorka.dominio.Comentario</class>
+    <class>com.gorka.dominio.Seguidor</class>
+  </persistence-unit>
+</persistence>

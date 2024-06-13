@@ -1,0 +1,550 @@
+/*Cuerpo entero*/
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #21272A;
+    background-color: #F2F4F8;
+    max-width: 100%;
+}
+
+/*Quitar el margen del botton*/
+.no-margin-botton {
+    margin-bottom: 0 !important;
+}
+
+/*Cabecera*/
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 82px;
+    padding: 16px 0;
+    border-bottom: 1px solid #DDE1E6;
+    background: #FFF;
+}
+
+header a img {
+    max-width: 25%;
+    max-height: 100%;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+/*Texto*/
+h1 {
+    font-size: 54px;
+    font-weight: 700;
+    line-height: 110%;
+}
+
+h2 {
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 110%;
+}
+
+h3 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 110%;
+}
+
+h4 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 110%;
+}
+
+h5 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 110%;
+}
+
+.p-xlg {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+.p-lg {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+.p-m {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+.p-m-c {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 100%;
+    color: #697077;
+}
+
+.p-sm {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+.p-sm-c {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 140%;
+    color: #697077;
+}
+
+.p-xsm {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+.p-xsm-c {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 140%;
+    color: #697077;
+}
+
+a {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    color: #4D5358;
+}
+
+/*Botones*/
+.btn-sm-primary {
+    /*Boton negro pequeño*/
+    display: flex;
+    height: 40px;
+    padding: 12px;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%;
+    letter-spacing: 0.5px;
+    border-radius: 0;
+    color: #FFF;
+    border: 2px solid #121619;
+    background: #121619;
+}
+
+.btn-sm-primary:hover {
+    background: #FFF; /* Cambia el fondo a blanco al pasar el mouse */
+    color: #000; /* Cambia el color del texto a negro al pasar el mouse */
+    border-color: #121619; /* Mantiene el color del borde negro al pasar el mouse */
+}
+
+.btn-sm-secondary {
+    /*Boton blanco pequeño*/
+    display: flex;
+    height: 40px;
+    padding: 12px;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%;
+    letter-spacing: 0.5px;
+    border-radius: 0;
+    color: #121619;
+    border: 2px solid #121619;
+}
+
+.btn-sm-secondary:hover {
+    background: #000; /* Cambia el fondo a blanco al pasar el mouse */
+    color: #fff; /* Cambia el color del texto a negro al pasar el mouse */
+    border-color: #fff; /* Mantiene el color del borde negro al pasar el mouse */
+}
+
+.btn-m-primary {
+    /*Boton negro mediano*/
+    display: flex;
+    height: 48px;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%;
+    letter-spacing: 0.5px;
+    border-radius: 0;
+    color: #FFF;
+    border: 2px solid #121619;
+    background: #121619;
+    text-decoration: none;
+}
+
+.btn-m-primary:hover {
+    background: #fff; /* Cambia el fondo a blanco al pasar el mouse */
+    color: #000; /* Cambia el color del texto a negro al pasar el mouse */
+    border-color: #121619; /* Mantiene el color del borde negro al pasar el mouse */
+}
+
+.btn-m-secondary {
+    /*Boton blanco mediano*/
+    display: flex;
+    height: 48px;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%;
+    letter-spacing: 0.5px;
+    border-radius: 0;
+    color: #121619;
+    border: 2px solid #121619;
+}
+
+.btn-m-secondary:hover {
+    background: #000; /* Cambia el fondo a blanco al pasar el mouse */
+    color: #fff; /* Cambia el color del texto a negro al pasar el mouse */
+    border-color: #fff; /* Mantiene el color del borde negro al pasar el mouse */
+}
+
+.btn-lg-primary {
+    /*Boton negro grande*/
+    display: flex;
+    height: 56px;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%;
+    letter-spacing: 0.5px;
+    border-radius: 0;
+    color: #FFF;
+    border: 2px solid #121619;
+    background: #121619;
+    text-decoration: none;
+}
+
+.btn-lg-primary:hover {
+    background: #F2F4F8; /* Cambia el fondo a blanco al pasar el mouse */
+    color: #000; /* Cambia el color del texto a negro al pasar el mouse */
+    border-color: #121619; /* Mantiene el color del borde negro al pasar el mouse */
+}
+
+.btn-lg-secondary {
+    /*Boton blanco grande*/
+    display: flex;
+    height: 56px;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%;
+    letter-spacing: 0.5px;
+    border-radius: 0;
+    color: #121619;
+    border: 2px solid #121619;
+}
+
+.btn-lg-secondary:hover {
+    background: #000; /* Cambia el fondo a blanco al pasar el mouse */
+    color: #fff; /* Cambia el color del texto a negro al pasar el mouse */
+    border-color: #fff; /* Mantiene el color del borde negro al pasar el mouse */
+}
+
+.btn-actividad-eliminar {
+    background-color: transparent;
+    border: 1px solid transparent;
+}
+
+/*Input*/
+.input {
+    /*Caja completa*/
+    width: 100%;
+    display: flex;
+    margin-bottom: 16px;
+    flex-direction: column;
+    text-align: left;
+    gap: 8px;
+    align-self: stretch;
+}
+
+.input label {
+    /*Label del input*/
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+.input input {
+    /*Input del input*/
+    height: 48px;
+    padding: 12px 16px;
+    border: none;
+    border-bottom: 1px solid #C1C7CD;
+    background: #F2F4F8;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+.label1 {
+    /*Input del input*/
+    height: 48px;
+    padding: 12px 16px;
+    border: none;
+    border-bottom: 1px solid #C1C7CD;
+    background: #F2F4F8;
+}
+
+select {
+    /*Select del input*/
+    width: 210px;
+    height: 48px;
+    padding: 12px 16px;
+    gap: 8px;
+    border: none;
+    border-bottom: 1px solid #C1C7CD;
+    background: #F2F4F8;
+}
+
+/*Tarjeta registro y iniciar sesion*/
+.tarjeta-inicio {
+    /*Tarjeta de fuera*/
+    border: 1px solid #DDE1E6;
+    background: #FFF;
+    padding: 24px;
+    gap: 24px;
+    width: 680px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.tarjeta-inicio-formulario {
+    /*Tarjeta del formulario de registro y iniciar sesion*/
+    display: flex;
+    padding: 0px 56px;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+    margin-bottom: 40px;
+}
+
+.tarjeta-inicio-formulario form {
+    /*Linea de abajo de la tarjeta del formulario*/
+    border-bottom: 1px solid #DDE1E6;
+    padding-bottom: 24px;
+}
+
+/*Container de las paginas de la aplicacion*/
+
+.containerGeneral {
+    max-width: 1440px;
+    margin: auto;
+    padding: 16px 0;
+}
+
+/*Barra de navegación*/
+.seccion-navbar {
+    max-height: 720px;
+    text-align: center;
+    border-right: 1px solid #DDE1E6;
+    border-left: 1px solid #DDE1E6;
+    background: #FFF;
+}
+
+.navbar-user-stats {
+    margin-top: 8px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+}
+
+.navbar-user-stats div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-lista li {
+    padding: 6px 6px;
+    border-bottom: 1px solid#F2F4F8;
+}
+
+/*Cuerpo*/
+.containerCuerpo {
+    padding: 0px 56px;
+    width: 80%;
+}
+
+.containerPrincipal {
+    display: flex;
+    width: 100%;
+    padding: 24px;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 5px;
+    border: 1px solid #DDE1E6;
+    background: #FFF;
+}
+
+/*Mi perfil*/
+.marcador-miperfil {
+    border-bottom: 2px solid #4D5358;
+}
+
+/*Mi equipamiento*/
+.containerEquipamiento {
+    display: flex;
+    padding: 24px;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+    border: 1px solid #DDE1E6;
+}
+
+/*Tamaño modal actividad*/
+.tamaño-modal-actividad {
+    max-width: 1000px;
+}
+
+/*Filtro en actividades (correr, ciclismo, natacion)*/
+.filtro-actividad {
+    display: flex;
+    padding: 1px 10px 2px 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background: #F2F4F8;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    color: #21272A;
+    text-align: center;
+}
+
+/*Container de actividad principal*/
+.containerActividad-principal {
+    display: flex;
+    padding: 24px;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+    border-radius: 5px;
+    border: 1px solid #DDE1E6;
+}
+
+/*Container de actividad secundario*/
+.containerActividad-secundario {
+    display: flex;
+    padding: 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    flex: 1 0 0;
+    border: 1px solid var(--CoolGray-20, #DDE1E6);
+    background: var(--Default-White, #FFF);
+    margin-left: 24px;
+}
+
+/*Container de mis actividades*/
+.containerActividadesTabla {
+    padding: 0px 56px;
+    width: 100%;
+}
+
+/*Datos de mi tabla de actividades*/
+.fondoCabeceraTabla {
+    background-color: #F2F4F8;
+    border: 1px solid #DDE1E6;
+}
+
+/*Datos del usuario*/
+.containerPrincipal-usuario {
+    display: flex;
+    width: 100%;
+    padding: 24px;
+    padding-bottom: 8px;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 5px;
+    border: 1px solid #DDE1E6;
+    background: #FFF;
+}
+
+/*Input comentario en actividad*/
+.inputComentario input {
+    /*Input del input*/
+    height: 48px;
+    padding: 12px 16px;
+    border: none;
+    border-bottom: 1px solid #C1C7CD;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+.inputComentario {
+    /*Caja completa*/
+    width: 100%;
+    display: flex;
+    margin-bottom: 16px;
+    flex-direction: column;
+    text-align: left;
+    gap: 8px;
+    align-self: stretch;
+}
+
+/*Boton de reaccion*/
+.botonReaccion {
+    border: none;
+    background-color: transparent;
+    padding: 0;
+    margin: 0;
+}
+
+/*Container de actividad principal*/
+.containerMetrica-principal {
+    display: flex;
+    padding: 24px;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+    border-radius: 5px;
+    border: 1px solid #DDE1E6;
+}
+
+/*Container de actividad secundario*/
+.containerMetrica-secundario {
+    display: flex;
+    padding: 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    flex: 1 0 0;
+    border: 1px solid #DDE1E6;
+    background: #FFF;
+    margin-left: 24px;
+}
