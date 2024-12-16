@@ -1,4 +1,8 @@
-PROYECTO FINAL GRADO SUPERIOR DE APLICACIONES MULTIPLATAFORMA
+# LUDUS
+
+### Proyecto final del grado superior de aplicaciones multiplataforma
+
+---
 
 Ludus, una aplicación en donde puedes registrar, analizar y compartir tus actividades deportivas.
 
